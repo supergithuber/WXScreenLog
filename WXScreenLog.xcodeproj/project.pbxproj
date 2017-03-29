@@ -15,9 +15,9 @@
 		CC5EDBC61E8BAA270036E93E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5EDBC41E8BAA270036E93E /* LaunchScreen.storyboard */; };
 		CC5EDBD11E8BAA280036E93E /* WXScreenLogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5EDBD01E8BAA280036E93E /* WXScreenLogTests.m */; };
 		CC5EDBDC1E8BAA280036E93E /* WXScreenLogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5EDBDB1E8BAA280036E93E /* WXScreenLogUITests.m */; };
-		CC5EDBEC1E8BAED90036E93E /* WXLogWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5EDBEB1E8BAED90036E93E /* WXLogWindow.m */; };
-		CC5EDBEF1E8BB6BE0036E93E /* WXLogConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5EDBEE1E8BB6BE0036E93E /* WXLogConsole.m */; };
-		CC5EDBF21E8BB8B60036E93E /* UIWindow+WindowShaking.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5EDBF11E8BB8B60036E93E /* UIWindow+WindowShaking.m */; };
+		CC8FE07D1E8C19280026D5B9 /* UIWindow+WindowShaking.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8FE0781E8C19280026D5B9 /* UIWindow+WindowShaking.m */; };
+		CC8FE07E1E8C19280026D5B9 /* WXLogConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8FE07A1E8C19280026D5B9 /* WXLogConsole.m */; };
+		CC8FE07F1E8C19280026D5B9 /* WXLogWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8FE07C1E8C19280026D5B9 /* WXLogWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,12 +54,12 @@
 		CC5EDBD71E8BAA280036E93E /* WXScreenLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXScreenLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC5EDBDB1E8BAA280036E93E /* WXScreenLogUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXScreenLogUITests.m; sourceTree = "<group>"; };
 		CC5EDBDD1E8BAA280036E93E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC5EDBEA1E8BAED90036E93E /* WXLogWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXLogWindow.h; sourceTree = "<group>"; };
-		CC5EDBEB1E8BAED90036E93E /* WXLogWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXLogWindow.m; sourceTree = "<group>"; };
-		CC5EDBED1E8BB6BE0036E93E /* WXLogConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXLogConsole.h; sourceTree = "<group>"; };
-		CC5EDBEE1E8BB6BE0036E93E /* WXLogConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXLogConsole.m; sourceTree = "<group>"; };
-		CC5EDBF01E8BB8B60036E93E /* UIWindow+WindowShaking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+WindowShaking.h"; sourceTree = "<group>"; };
-		CC5EDBF11E8BB8B60036E93E /* UIWindow+WindowShaking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+WindowShaking.m"; sourceTree = "<group>"; };
+		CC8FE0771E8C19280026D5B9 /* UIWindow+WindowShaking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIWindow+WindowShaking.h"; path = "ScreenLog/UIWindow+WindowShaking.h"; sourceTree = "<group>"; };
+		CC8FE0781E8C19280026D5B9 /* UIWindow+WindowShaking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+WindowShaking.m"; path = "ScreenLog/UIWindow+WindowShaking.m"; sourceTree = "<group>"; };
+		CC8FE0791E8C19280026D5B9 /* WXLogConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WXLogConsole.h; path = ScreenLog/WXLogConsole.h; sourceTree = "<group>"; };
+		CC8FE07A1E8C19280026D5B9 /* WXLogConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WXLogConsole.m; path = ScreenLog/WXLogConsole.m; sourceTree = "<group>"; };
+		CC8FE07B1E8C19280026D5B9 /* WXLogWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WXLogWindow.h; path = ScreenLog/WXLogWindow.h; sourceTree = "<group>"; };
+		CC8FE07C1E8C19280026D5B9 /* WXLogWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WXLogWindow.m; path = ScreenLog/WXLogWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,12 +153,12 @@
 		CC5EDBE91E8BAA4A0036E93E /* screenLog */ = {
 			isa = PBXGroup;
 			children = (
-				CC5EDBEA1E8BAED90036E93E /* WXLogWindow.h */,
-				CC5EDBEB1E8BAED90036E93E /* WXLogWindow.m */,
-				CC5EDBED1E8BB6BE0036E93E /* WXLogConsole.h */,
-				CC5EDBEE1E8BB6BE0036E93E /* WXLogConsole.m */,
-				CC5EDBF01E8BB8B60036E93E /* UIWindow+WindowShaking.h */,
-				CC5EDBF11E8BB8B60036E93E /* UIWindow+WindowShaking.m */,
+				CC8FE0771E8C19280026D5B9 /* UIWindow+WindowShaking.h */,
+				CC8FE0781E8C19280026D5B9 /* UIWindow+WindowShaking.m */,
+				CC8FE0791E8C19280026D5B9 /* WXLogConsole.h */,
+				CC8FE07A1E8C19280026D5B9 /* WXLogConsole.m */,
+				CC8FE07B1E8C19280026D5B9 /* WXLogWindow.h */,
+				CC8FE07C1E8C19280026D5B9 /* WXLogWindow.m */,
 			);
 			name = screenLog;
 			sourceTree = "<group>";
@@ -298,11 +298,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC5EDBBE1E8BAA270036E93E /* ViewController.m in Sources */,
-				CC5EDBEC1E8BAED90036E93E /* WXLogWindow.m in Sources */,
+				CC8FE07D1E8C19280026D5B9 /* UIWindow+WindowShaking.m in Sources */,
 				CC5EDBBB1E8BAA270036E93E /* AppDelegate.m in Sources */,
+				CC8FE07F1E8C19280026D5B9 /* WXLogWindow.m in Sources */,
 				CC5EDBB81E8BAA270036E93E /* main.m in Sources */,
-				CC5EDBEF1E8BB6BE0036E93E /* WXLogConsole.m in Sources */,
-				CC5EDBF21E8BB8B60036E93E /* UIWindow+WindowShaking.m in Sources */,
+				CC8FE07E1E8C19280026D5B9 /* WXLogConsole.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
