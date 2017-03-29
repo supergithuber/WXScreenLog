@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "WXLogConsole.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [WXLogConsole log:@"log"];
+    [WXLogConsole warn:@"warn"];
+    [WXLogConsole error:@"error"];
+    [WXLogConsole info:@"info"];
 }
 
 

@@ -536,6 +536,7 @@
 				CC5EDBE21E8BAA280036E93E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC5EDBE31E8BAA280036E93E /* Build configuration list for PBXNativeTarget "WXScreenLogTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +545,7 @@
 				CC5EDBE51E8BAA280036E93E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC5EDBE61E8BAA280036E93E /* Build configuration list for PBXNativeTarget "WXScreenLogUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +554,7 @@
 				CC5EDBE81E8BAA280036E93E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

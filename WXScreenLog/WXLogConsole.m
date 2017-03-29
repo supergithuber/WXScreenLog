@@ -11,8 +11,6 @@
 
 @interface WXLogConsole ()
 
-@property (nonatomic, strong)WXLogWindow *logWindow;
-
 @end
 
 @implementation WXLogConsole
@@ -39,6 +37,7 @@
     dispatch_async(dispatch_get_main_queue(), ^{
         [self updateText:infoString color:[UIColor whiteColor]];
     });
+    NSLog(@"%@", infoString);
 }
 
 + (void)warn:(NSString *)warnString
@@ -46,16 +45,30 @@
     dispatch_async(dispatch_get_main_queue(), ^{
         [self updateText:warnString color:[UIColor yellowColor]];
     });
+    NSLog(@"%@", warnString);
 }
 
 + (void)clear
 {
-    
+    [WXLogWindow sharedInstance].contentString = nil;
 }
 
 + (void)updateText:(NSString *)text color:(UIColor *)color
 {
     
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    dateFormatter.dateFormat = @"hh:mm:ss SSS";
+    NSString *dateString = [dateFormatter stringFromDate:[NSDate date]];
+    //新加上的
+    NSString *appendString = [NSString stringWithFormat:@"\n %@ : %@",dateString, text];
+    NSDictionary *attributedDictionary = @{NSForegroundColorAttributeName : color};
+    NSMutableAttributedString *attributedAppendString = [[NSMutableAttributedString alloc] initWithString:appendString attributes:attributedDictionary];
+    //原来的
+    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc]initWithAttributedString:[WXLogWindow sharedInstance].contentString];
+    [attributedString appendAttributedString:attributedAppendString];
+    
+    //设置新的
+    [WXLogWindow sharedInstance].contentString = attributedString;
 }
 
 @end

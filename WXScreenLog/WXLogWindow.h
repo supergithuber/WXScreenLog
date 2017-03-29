@@ -10,6 +10,7 @@
 
 @interface WXLogWindow : UIView
 
+@property (nonatomic, strong)NSAttributedString *contentString;
 
 + (instancetype)sharedInstance;
 

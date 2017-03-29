@@ -64,4 +64,17 @@
 {
     self.hidden = !self.hidden;
 }
+
+#pragma mark - setter and getter
+- (NSAttributedString *)contentString
+{
+    return self.textView.attributedText;
+}
+
+- (void)setContentString:(NSAttributedString *)contentString
+{
+    self.textView.attributedText = contentString;
+    [self.textView scrollRangeToVisible:NSMakeRange([self.textView.text lengthOfBytesUsingEncoding:NSUTF8StringEncoding] - 3, 2)];
+}
+
 @end
