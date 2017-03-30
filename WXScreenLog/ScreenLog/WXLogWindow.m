@@ -74,7 +74,7 @@
 - (void)setContentString:(NSAttributedString *)contentString
 {
     self.textView.attributedText = contentString;
-    [self.textView scrollRangeToVisible:NSMakeRange([self.textView.text lengthOfBytesUsingEncoding:NSUTF8StringEncoding] - 3, 2)];
+    [self.textView scrollRangeToVisible:NSMakeRange([self.textView.text lengthOfBytesUsingEncoding:NSUTF8StringEncoding] - 4, 3)];
 }
 
 @end
