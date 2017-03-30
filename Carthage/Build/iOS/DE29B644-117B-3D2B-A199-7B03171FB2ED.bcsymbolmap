@@ -1,0 +1,58 @@
+BCSymbolMap Version: 2.0
+-[UIWindow(WindowShaking) canBecomeFirstResponder]
+-[UIWindow(WindowShaking) motionBegan:withEvent:]
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+/Users/wuxi/Documents/oc代码/WXScreenLog/WXScreenLog/ScreenLog/UIWindow+WindowShaking.m
+/Users/wuxi/Documents/oc代码/WXScreenLog
++[WXLogConsole log:]
+___20+[WXLogConsole log:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
++[WXLogConsole error:]
+___22+[WXLogConsole error:]_block_invoke
+___copy_helper_block_.6
+___destroy_helper_block_.7
++[WXLogConsole info:]
+___21+[WXLogConsole info:]_block_invoke
+___copy_helper_block_.12
+___destroy_helper_block_.13
++[WXLogConsole warn:]
+___21+[WXLogConsole warn:]_block_invoke
+___copy_helper_block_.18
+___destroy_helper_block_.19
++[WXLogConsole clear]
++[WXLogConsole updateText:color:]
+___block_descriptor_tmp
+___block_descriptor_tmp.9
+___block_descriptor_tmp.15
+___block_descriptor_tmp.21
+/Users/wuxi/Documents/oc代码/WXScreenLog/WXScreenLog/ScreenLog/WXLogConsole.m
+__destroy_helper_block_
+__copy_helper_block_
+__21+[WXLogConsole warn:]_block_invoke
+__21+[WXLogConsole info:]_block_invoke
+__22+[WXLogConsole error:]_block_invoke
+__20+[WXLogConsole log:]_block_invoke
++[WXLogWindow sharedInstance]
+___29+[WXLogWindow sharedInstance]_block_invoke
+-[WXLogWindow initWithFrame:]
+-[WXLogWindow init]
+-[WXLogWindow setup]
+-[WXLogWindow layoutSubviews]
+-[WXLogWindow toggle]
+-[WXLogWindow contentString]
+-[WXLogWindow setContentString:]
+-[WXLogWindow textView]
+-[WXLogWindow setTextView:]
+-[WXLogWindow .cxx_destruct]
+_sharedInstance.onceToken
+_sharedInstance.logWindow
+___block_literal_global
+_OBJC_IVAR_$_WXLogWindow._textView
+/Users/wuxi/Documents/oc代码/WXScreenLog/WXScreenLog/ScreenLog/WXLogWindow.m
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+__29+[WXLogWindow sharedInstance]_block_invoke
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/dispatch/once.h
+/Users/wuxi/Library/Developer/Xcode/DerivedData/WXScreenLog-fvvrehxgeyfwlheggzcshijzlfck/Build/Intermediates/WXScreenLog.build/Release-iphoneos/WXScreenLogFramework.build/DerivedSources/WXScreenLog_vers.c

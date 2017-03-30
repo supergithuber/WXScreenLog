@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC0607561E8D44720050A5CD /* WXScreenLogFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0607541E8D44720050A5CD /* WXScreenLogFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC0607591E8D44720050A5CD /* WXScreenLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0607521E8D44720050A5CD /* WXScreenLog.framework */; };
+		CC06075A1E8D44720050A5CD /* WXScreenLog.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC0607521E8D44720050A5CD /* WXScreenLog.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CC06075F1E8D448F0050A5CD /* UIWindow+WindowShaking.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8FE0781E8C19280026D5B9 /* UIWindow+WindowShaking.m */; };
+		CC0607601E8D448F0050A5CD /* WXLogConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8FE07A1E8C19280026D5B9 /* WXLogConsole.m */; };
+		CC0607611E8D448F0050A5CD /* WXLogWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8FE07C1E8C19280026D5B9 /* WXLogWindow.m */; };
+		CC0607621E8D449A0050A5CD /* UIWindow+WindowShaking.h in Headers */ = {isa = PBXBuildFile; fileRef = CC8FE0771E8C19280026D5B9 /* UIWindow+WindowShaking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC0607631E8D449A0050A5CD /* WXLogConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = CC8FE0791E8C19280026D5B9 /* WXLogConsole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC0607641E8D449A0050A5CD /* WXLogWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = CC8FE07B1E8C19280026D5B9 /* WXLogWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC5EDBB81E8BAA270036E93E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5EDBB71E8BAA270036E93E /* main.m */; };
 		CC5EDBBB1E8BAA270036E93E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5EDBBA1E8BAA270036E93E /* AppDelegate.m */; };
 		CC5EDBBE1E8BAA270036E93E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5EDBBD1E8BAA270036E93E /* ViewController.m */; };
@@ -21,6 +30,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CC0607571E8D44720050A5CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC5EDBAB1E8BAA270036E93E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC0607511E8D44720050A5CD;
+			remoteInfo = WXScreenLogFramework;
+		};
 		CC5EDBCD1E8BAA280036E93E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CC5EDBAB1E8BAA270036E93E /* Project object */;
@@ -37,7 +53,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CC06075E1E8D44720050A5CD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CC06075A1E8D44720050A5CD /* WXScreenLog.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		CC0607521E8D44720050A5CD /* WXScreenLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WXScreenLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0607541E8D44720050A5CD /* WXScreenLogFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXScreenLogFramework.h; sourceTree = "<group>"; };
+		CC0607551E8D44720050A5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC5EDBB31E8BAA270036E93E /* WXScreenLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXScreenLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC5EDBB71E8BAA270036E93E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC5EDBB91E8BAA270036E93E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,10 +96,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CC06074E1E8D44720050A5CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CC5EDBB01E8BAA270036E93E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC0607591E8D44720050A5CD /* WXScreenLog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,12 +128,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC0607531E8D44720050A5CD /* WXScreenLogFramework */ = {
+			isa = PBXGroup;
+			children = (
+				CC0607541E8D44720050A5CD /* WXScreenLogFramework.h */,
+				CC0607551E8D44720050A5CD /* Info.plist */,
+			);
+			path = WXScreenLogFramework;
+			sourceTree = "<group>";
+		};
 		CC5EDBAA1E8BAA270036E93E = {
 			isa = PBXGroup;
 			children = (
 				CC5EDBB51E8BAA270036E93E /* WXScreenLog */,
 				CC5EDBCF1E8BAA280036E93E /* WXScreenLogTests */,
 				CC5EDBDA1E8BAA280036E93E /* WXScreenLogUITests */,
+				CC0607531E8D44720050A5CD /* WXScreenLogFramework */,
 				CC5EDBB41E8BAA270036E93E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +154,7 @@
 				CC5EDBB31E8BAA270036E93E /* WXScreenLog.app */,
 				CC5EDBCC1E8BAA280036E93E /* WXScreenLogTests.xctest */,
 				CC5EDBD71E8BAA280036E93E /* WXScreenLogUITests.xctest */,
+				CC0607521E8D44720050A5CD /* WXScreenLog.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,7 +217,39 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		CC06074F1E8D44720050A5CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0607561E8D44720050A5CD /* WXScreenLogFramework.h in Headers */,
+				CC0607621E8D449A0050A5CD /* UIWindow+WindowShaking.h in Headers */,
+				CC0607631E8D449A0050A5CD /* WXLogConsole.h in Headers */,
+				CC0607641E8D449A0050A5CD /* WXLogWindow.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		CC0607511E8D44720050A5CD /* WXScreenLogFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC06075D1E8D44720050A5CD /* Build configuration list for PBXNativeTarget "WXScreenLogFramework" */;
+			buildPhases = (
+				CC06074D1E8D44720050A5CD /* Sources */,
+				CC06074E1E8D44720050A5CD /* Frameworks */,
+				CC06074F1E8D44720050A5CD /* Headers */,
+				CC0607501E8D44720050A5CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXScreenLogFramework;
+			productName = WXScreenLogFramework;
+			productReference = CC0607521E8D44720050A5CD /* WXScreenLog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		CC5EDBB21E8BAA270036E93E /* WXScreenLog */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC5EDBE01E8BAA280036E93E /* Build configuration list for PBXNativeTarget "WXScreenLog" */;
@@ -173,10 +257,12 @@
 				CC5EDBAF1E8BAA270036E93E /* Sources */,
 				CC5EDBB01E8BAA270036E93E /* Frameworks */,
 				CC5EDBB11E8BAA270036E93E /* Resources */,
+				CC06075E1E8D44720050A5CD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CC0607581E8D44720050A5CD /* PBXTargetDependency */,
 			);
 			name = WXScreenLog;
 			productName = WXScreenLog;
@@ -228,6 +314,11 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Wuxi;
 				TargetAttributes = {
+					CC0607511E8D44720050A5CD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KYFVDC483X;
+						ProvisioningStyle = Automatic;
+					};
 					CC5EDBB21E8BAA270036E93E = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = KYFVDC483X;
@@ -261,11 +352,19 @@
 				CC5EDBB21E8BAA270036E93E /* WXScreenLog */,
 				CC5EDBCB1E8BAA280036E93E /* WXScreenLogTests */,
 				CC5EDBD61E8BAA280036E93E /* WXScreenLogUITests */,
+				CC0607511E8D44720050A5CD /* WXScreenLogFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CC0607501E8D44720050A5CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CC5EDBB11E8BAA270036E93E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -293,6 +392,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CC06074D1E8D44720050A5CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC06075F1E8D448F0050A5CD /* UIWindow+WindowShaking.m in Sources */,
+				CC0607601E8D448F0050A5CD /* WXLogConsole.m in Sources */,
+				CC0607611E8D448F0050A5CD /* WXLogWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CC5EDBAF1E8BAA270036E93E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -325,6 +434,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		CC0607581E8D44720050A5CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC0607511E8D44720050A5CD /* WXScreenLogFramework */;
+			targetProxy = CC0607571E8D44720050A5CD /* PBXContainerItemProxy */;
+		};
 		CC5EDBCE1E8BAA280036E93E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CC5EDBB21E8BAA270036E93E /* WXScreenLog */;
@@ -357,6 +471,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		CC06075B1E8D44720050A5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KYFVDC483X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WXScreenLogFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wu.WXScreenLogFramework;
+				PRODUCT_MODULE_NAME = WXScreenLog;
+				PRODUCT_NAME = WXScreenLog;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC06075C1E8D44720050A5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KYFVDC483X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WXScreenLogFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wu.WXScreenLogFramework;
+				PRODUCT_MODULE_NAME = WXScreenLog;
+				PRODUCT_NAME = WXScreenLog;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		CC5EDBDE1E8BAA280036E93E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -522,6 +682,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CC06075D1E8D44720050A5CD /* Build configuration list for PBXNativeTarget "WXScreenLogFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC06075B1E8D44720050A5CD /* Debug */,
+				CC06075C1E8D44720050A5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		CC5EDBAE1E8BAA270036E93E /* Build configuration list for PBXProject "WXScreenLog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
