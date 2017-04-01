@@ -14,7 +14,25 @@ You can use it during debugging when your iPhone's lightening interface is conne
 
 #### 1. Drag the folder named ScreenLog with six files into your project.
 
-#### 2. 
+#### 2. Carthage
+
+add this code into your Cartfile
+
+
+```objc
+github "supergithuber/WXScreenLog" ~> 1.0.0
+```
+
+perform
+
+```objc
+carthage update --platform iOS
+```
+
+
+import <WXScreenLog/WXLogConsole.h> into your file where you want to use it.
+
+
 
 ### 3.Usage
 

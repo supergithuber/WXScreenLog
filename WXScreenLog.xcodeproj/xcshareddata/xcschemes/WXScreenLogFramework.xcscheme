@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CC0607511E8D44720050A5CD"
-               BuildableName = "WXScreenLogFramework.framework"
+               BuildableName = "WXScreenLog.framework"
                BlueprintName = "WXScreenLogFramework"
                ReferencedContainer = "container:WXScreenLog.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CC0607511E8D44720050A5CD"
-            BuildableName = "WXScreenLogFramework.framework"
+            BuildableName = "WXScreenLog.framework"
             BlueprintName = "WXScreenLogFramework"
             ReferencedContainer = "container:WXScreenLog.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CC0607511E8D44720050A5CD"
-            BuildableName = "WXScreenLogFramework.framework"
+            BuildableName = "WXScreenLog.framework"
             BlueprintName = "WXScreenLogFramework"
             ReferencedContainer = "container:WXScreenLog.xcodeproj">
          </BuildableReference>
