@@ -12,9 +12,11 @@ You can use it during debugging when your iPhone's lightening interface is conne
 
 ### 2. Import
 
-#### 1. Drag the folder named ScreenLog with six files into your project.
+#### 1. Import source file
 
-#### 2. Carthage
+Drag the folder named ScreenLog with six files into your project.
+
+#### 2. Carthage(recommend)
 
 add this code into your Cartfile
 
