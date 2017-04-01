@@ -40,8 +40,9 @@ import <WXScreenLog/WXLogConsole.h> into your file where you want to use it.
 
 import "WXLogConsole.h"
 
-you can log your information on your iPhone like these
-you can see and hide the log information by **shaking your iPhone**
+You can log your information on your iPhone like these.
+
+You can see and hide the log information by **shaking your iPhone**
 
 ```objc
     [WXLogConsole log:@"log"];
