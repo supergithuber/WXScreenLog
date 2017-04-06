@@ -53,4 +53,4 @@ You can see and hide the log information by **shaking your iPhone**
 
 ### 4.Friendly Link
 
-about how to make a [carthage](!http://www.jianshu.com/p/bf263c596538)
+about how to make a [carthage](http://www.jianshu.com/p/bf263c596538)
